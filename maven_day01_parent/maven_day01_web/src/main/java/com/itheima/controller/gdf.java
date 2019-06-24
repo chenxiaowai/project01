@@ -15,8 +15,4 @@ public class gdf  {
         System.out.println(l2-l1);
     }
 
-    public static void git(){
-        System.out.println("asaaa");
-    }
-
 }
