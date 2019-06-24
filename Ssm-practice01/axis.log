@@ -1,0 +1,14 @@
+2019-06-21 08:51:54,797 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b2fad11: startup date [Fri Jun 21 08:51:54 CST 2019]; root of context hierarchy
+2019-06-21 08:51:54,909 112    [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]
+2019-06-21 08:52:14,440 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b2fad11: startup date [Fri Jun 21 08:52:14 CST 2019]; root of context hierarchy
+2019-06-21 08:52:14,530 90     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]
+2019-06-21 08:52:50,506 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@79b4d0f: startup date [Fri Jun 21 08:52:50 CST 2019]; root of context hierarchy
+2019-06-21 08:52:50,634 128    [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]
+2019-06-21 08:54:30,623 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b2fad11: startup date [Fri Jun 21 08:54:30 CST 2019]; root of context hierarchy
+2019-06-21 08:54:30,714 91     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]
+2019-06-21 09:15:12,801 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b2fad11: startup date [Fri Jun 21 09:15:12 CST 2019]; root of context hierarchy
+2019-06-21 09:15:12,896 95     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]
+2019-06-21 09:19:17,999 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b2fad11: startup date [Fri Jun 21 09:19:17 CST 2019]; root of context hierarchy
+2019-06-21 09:19:18,086 87     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]
+2019-06-21 09:20:59,172 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b2fad11: startup date [Fri Jun 21 09:20:59 CST 2019]; root of context hierarchy
+2019-06-21 09:20:59,262 90     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext]

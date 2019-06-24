@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringDay04-xmlTx02.iml" filepath="$PROJECT_DIR$/SpringDay04-xmlTx02.iml" />
+      <module fileurl="file://D:/Aweb 框架/spring_day04/代码/spring_day04/day04_eesy_02account_aoptx_xml/day04_eesy_02account_aoptx_xml.iml" filepath="D:/Aweb 框架/spring_day04/代码/spring_day04/day04_eesy_02account_aoptx_xml/day04_eesy_02account_aoptx_xml.iml" />
+      <module fileurl="file://D:/Aweb 框架/spring_day04/代码/spring_day04/day04_eesy_03account_aoptx_anno/day04_eesy_03account_aoptx_anno.iml" filepath="D:/Aweb 框架/spring_day04/代码/spring_day04/day04_eesy_03account_aoptx_anno/day04_eesy_03account_aoptx_anno.iml" />
+    </modules>
+  </component>
+</project>

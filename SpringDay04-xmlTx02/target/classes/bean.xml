@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置spring创建容器时要扫描的包-->
+    <context:component-scan base-package="com.itheima"/>
+
+
+    <!--配置QueryRunner-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+       <!-- &lt;!&ndash;注入数据源&ndash;&gt;
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>-->
+    </bean>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/eesy"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+
+
+ <!--   &lt;!&ndash;配置aop&ndash;&gt;
+    <aop:config>
+        &lt;!&ndash;配置切点&ndash;&gt;
+        <aop:pointcut id="pt" expression="execution(* com.itheima.service.impl.*.*(..))"/>
+        &lt;!&ndash;配置切面&ndash;&gt;
+        <aop:aspect id="txAdvice" ref="txManger">
+            &lt;!&ndash;配置前置通知&ndash;&gt;
+            <aop:before method="beginTransaction" pointcut-ref="pt"/>
+            &lt;!&ndash;配置后置通知&ndash;&gt;
+            <aop:after-returning method="commit" pointcut-ref="pt"/>
+            &lt;!&ndash;配置异常通知&ndash;&gt;
+            <aop:after-throwing method="rollback" pointcut-ref="pt"/>
+            &lt;!&ndash;配置最终通知&ndash;&gt;
+            <aop:after method="release" pointcut-ref="pt"/>
+        </aop:aspect>
+    </aop:config>
+-->
+    <!--开启spring对注解aop的支持-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+</beans>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="111111:war exploded">
+    <output-path>D:/Aweb 框架/SpringMVC-02/代码/111111/target/111111</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="111111" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:/Aweb 框架/SpringMVC-02/代码/111111/target/111111/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="111111/web/Web" />
+    </root>
+  </artifact>
+</component>

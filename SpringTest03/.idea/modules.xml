@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringTest03.iml" filepath="$PROJECT_DIR$/SpringTest03.iml" />
+      <module fileurl="file://D:/Aweb 框架/spring_day02/代码/spring_day02/day02_eesy_04account_annoioc_withoutxml/day02_eesy_04account_annoioc_withoutxml.iml" filepath="D:/Aweb 框架/spring_day02/代码/spring_day02/day02_eesy_04account_annoioc_withoutxml/day02_eesy_04account_annoioc_withoutxml.iml" />
+      <module fileurl="file://D:/Aweb 框架/spring_day03/代码/spring_day03/day03_eesy_05annotationAOP/day03_eesy_05annotationAOP.iml" filepath="D:/Aweb 框架/spring_day03/代码/spring_day03/day03_eesy_05annotationAOP/day03_eesy_05annotationAOP.iml" />
+    </modules>
+  </component>
+</project>
